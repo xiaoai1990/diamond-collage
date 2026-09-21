@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Diamond Collage · 钻石拼贴</title>
+<meta property="og:title" content="Diamond Collage · 钻石拼贴">
+<meta property="og:description" content="选一个脉络,自己挑钻色,一颗颗拼满它 · 沉浸式解压">
+<meta name="description" content="沉浸式水钻拼贴解压小游戏">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <h1>💎 钻石拼贴</h1>
+    <div id="progress-wrap">
+      <div id="progress-bar"></div>
+      <span id="progress-text">0 / 0</span>
+    </div>
+  </header>
+
+  <nav id="templates"></nav>
+
+  <main id="stage">
+    <canvas id="board"></canvas>
+    <div id="flash"></div>
+    <div id="done-card" class="hidden">
+      <div class="done-inner">
+        <div class="done-gem">💎</div>
+        <h2>作品完成!</h2>
+        <p id="done-sub"></p>
+        <div class="done-actions">
+          <button id="btn-export" class="primary">保存高清图</button>
+          <button id="btn-continue">继续修改</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="dock">
+    <div id="palette"></div>
+    <div id="tools">
+      <button id="btn-undo" title="撤销">↩️</button>
+      <button id="btn-erase" title="擦除">🧽</button>
+      <button id="btn-sound" title="音效">🔊</button>
+      <button id="btn-export2" title="导出">💾</button>
+    </div>
+  </footer>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
