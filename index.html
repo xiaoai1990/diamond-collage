@@ -1,53 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Diamond Collage · 钻石拼贴</title>
 <meta property="og:title" content="Diamond Collage · 钻石拼贴">
-<meta property="og:description" content="选一个脉络,自己挑钻色,一颗颗拼满它 · 沉浸式解压">
-<meta name="description" content="沉浸式水钻拼贴解压小游戏">
-<link rel="stylesheet" href="style.css">
+<meta property="og:description" content="pick a frame, choose your own gems, place them one by one ✦ relaxing gem collage">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Caveat:wght@600&family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-<div id="app">
-  <header id="topbar">
-    <h1>💎 钻石拼贴</h1>
-    <div id="progress-wrap">
-      <div id="progress-bar"></div>
-      <span id="progress-text">0 / 0</span>
-    </div>
-  </header>
+<div id="desktop">
+  <div id="app-window">
 
-  <nav id="templates"></nav>
+    <!-- ===== HOME VIEW ===== -->
+    <section id="view-home" class="view">
+      <div class="titlebar">
+        <span class="tb-title">💎 diamond_collage.exe</span>
+        <span class="tb-btns"><i>─</i><i>□</i><i>×</i></span>
+      </div>
+      <div class="menubar"><span>File</span><span>Edit</span><span>View</span><span>Help</span></div>
+      <div class="hero">
+        <h1 class="px-title">DIAMOND<br>COLLAGE</h1>
+        <p class="hero-sub">* make it sparkle, babe *</p>
+      </div>
+      <div class="mode-tabs">
+        <button id="tab-frames" class="px-btn lemon on">✦ frames</button>
+        <button id="tab-free" class="px-btn white">free play</button>
+      </div>
+      <div id="card-grid"></div>
+    </section>
 
-  <main id="stage">
-    <canvas id="board"></canvas>
-    <div id="flash"></div>
-    <div id="done-card" class="hidden">
-      <div class="done-inner">
-        <div class="done-gem">💎</div>
-        <h2>作品完成!</h2>
-        <p id="done-sub"></p>
-        <div class="done-actions">
-          <button id="btn-export" class="primary">保存高清图</button>
-          <button id="btn-continue">继续修改</button>
+    <!-- ===== PLAY VIEW ===== -->
+    <section id="view-play" class="view hidden">
+      <div class="titlebar">
+        <span class="tb-title" id="play-title">← grape_collage.exe</span>
+        <span class="tb-btns"><i>─</i><i>□</i><i>×</i></span>
+      </div>
+
+      <div id="progress-area">
+        <div id="seg-track"></div>
+        <div class="prog-text">
+          <span id="prog-gems">0 / 0 gems</span>
+          <span id="prog-pct">0% done!</span>
         </div>
       </div>
-    </div>
-  </main>
+      <div id="free-tag" class="hidden">~ untitled collage ~</div>
 
-  <footer id="dock">
-    <div id="palette"></div>
-    <div id="tools">
-      <button id="btn-undo" title="撤销">↩️</button>
-      <button id="btn-erase" title="擦除">🧽</button>
-      <button id="btn-sound" title="音效">🔊</button>
-      <button id="btn-export2" title="导出">💾</button>
-    </div>
-  </footer>
+      <div id="art-window">
+        <div class="artbar"><span id="art-name">artboard.png</span><span class="art-x">×</span></div>
+        <canvas id="board"></canvas>
+        <div id="flash"></div>
+        <div id="done-card" class="hidden">
+          <div class="dc-titlebar"><span>♥ congrats!.exe</span><span class="dc-x">×</span></div>
+          <div class="dc-body">
+            <p class="dc-big">100% COMPLETE!</p>
+            <p class="dc-sub" id="done-sub">100 gems · your own colors ♡</p>
+            <button id="btn-export" class="px-btn lemon big">💾 save hd</button>
+            <button id="btn-continue" class="px-btn white big">keep editing</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="picker">
+        <div class="tray">
+          <div class="tray-label">shapes in pack ♡</div>
+          <div id="shape-row"></div>
+        </div>
+        <div class="tray-label2">+ gems_folder</div>
+        <div id="pack-row"></div>
+      </div>
+
+      <div id="tool-row">
+        <button class="tool" id="btn-undo" title="undo"><span class="ticon">↩</span></button>
+        <button class="tool" id="btn-erase" title="erase"><span class="ticon">◐</span></button>
+        <button class="tool" id="btn-sound" title="sound"><span class="ticon">🔊</span></button>
+        <button class="tool" id="btn-export2" title="save"><span class="ticon">💾</span></button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ===== TASKBAR ===== -->
+  <div id="taskbar">
+    <span class="start">♡ start</span>
+    <span id="task-hint" class="task-hint">welcome 2 my world</span>
+    <span id="clock" class="clock">10:30 PM</span>
+  </div>
 </div>
-<script src="game.js"></script>
+<script src="game.js?v=2"></script>
 </body>
 </html>

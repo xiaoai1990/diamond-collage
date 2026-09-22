@@ -1,0 +1,1614 @@
+{
+ "version": 1,
+ "total": 228,
+ "gems": [
+  {
+   "file": "插画水钻(白底)/gem-black-088.png",
+   "color": "black",
+   "w": 88,
+   "h": 46
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-007.png",
+   "color": "blue",
+   "w": 41,
+   "h": 41
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-011.png",
+   "color": "blue",
+   "w": 91,
+   "h": 94
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-013.png",
+   "color": "blue",
+   "w": 134,
+   "h": 156
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-029.png",
+   "color": "blue",
+   "w": 50,
+   "h": 49
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-035.png",
+   "color": "blue",
+   "w": 45,
+   "h": 44
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-041.png",
+   "color": "blue",
+   "w": 97,
+   "h": 97
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-055.png",
+   "color": "blue",
+   "w": 45,
+   "h": 45
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-057.png",
+   "color": "blue",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-063.png",
+   "color": "blue",
+   "w": 120,
+   "h": 141
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-069.png",
+   "color": "blue",
+   "w": 46,
+   "h": 47
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-073.png",
+   "color": "blue",
+   "w": 41,
+   "h": 41
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-082.png",
+   "color": "blue",
+   "w": 39,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-083.png",
+   "color": "blue",
+   "w": 105,
+   "h": 124
+  },
+  {
+   "file": "插画水钻(白底)/gem-blue-089.png",
+   "color": "blue",
+   "w": 122,
+   "h": 80
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-006.png",
+   "color": "gold",
+   "w": 45,
+   "h": 45
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-018.png",
+   "color": "gold",
+   "w": 45,
+   "h": 45
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-022.png",
+   "color": "gold",
+   "w": 44,
+   "h": 44
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-024.png",
+   "color": "gold",
+   "w": 108,
+   "h": 109
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-025.png",
+   "color": "gold",
+   "w": 62,
+   "h": 62
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-043.png",
+   "color": "gold",
+   "w": 100,
+   "h": 100
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-044.png",
+   "color": "gold",
+   "w": 39,
+   "h": 37
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-047.png",
+   "color": "gold",
+   "w": 44,
+   "h": 43
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-054.png",
+   "color": "gold",
+   "w": 126,
+   "h": 130
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-068.png",
+   "color": "gold",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-076.png",
+   "color": "gold",
+   "w": 40,
+   "h": 40
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-085.png",
+   "color": "gold",
+   "w": 41,
+   "h": 41
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-091.png",
+   "color": "gold",
+   "w": 35,
+   "h": 36
+  },
+  {
+   "file": "插画水钻(白底)/gem-gold-092.png",
+   "color": "gold",
+   "w": 104,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-005.png",
+   "color": "green",
+   "w": 75,
+   "h": 97
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-009.png",
+   "color": "green",
+   "w": 49,
+   "h": 49
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-030.png",
+   "color": "green",
+   "w": 74,
+   "h": 110
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-050.png",
+   "color": "green",
+   "w": 46,
+   "h": 46
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-052.png",
+   "color": "green",
+   "w": 106,
+   "h": 138
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-064.png",
+   "color": "green",
+   "w": 106,
+   "h": 109
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-077.png",
+   "color": "green",
+   "w": 44,
+   "h": 43
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-081.png",
+   "color": "green",
+   "w": 91,
+   "h": 105
+  },
+  {
+   "file": "插画水钻(白底)/gem-green-086.png",
+   "color": "green",
+   "w": 84,
+   "h": 85
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-010.png",
+   "color": "magenta",
+   "w": 101,
+   "h": 103
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-023.png",
+   "color": "magenta",
+   "w": 40,
+   "h": 40
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-032.png",
+   "color": "magenta",
+   "w": 118,
+   "h": 119
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-039.png",
+   "color": "magenta",
+   "w": 39,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-058.png",
+   "color": "magenta",
+   "w": 45,
+   "h": 45
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-059.png",
+   "color": "magenta",
+   "w": 131,
+   "h": 125
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-070.png",
+   "color": "magenta",
+   "w": 111,
+   "h": 107
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-075.png",
+   "color": "magenta",
+   "w": 91,
+   "h": 90
+  },
+  {
+   "file": "插画水钻(白底)/gem-magenta-080.png",
+   "color": "magenta",
+   "w": 105,
+   "h": 105
+  },
+  {
+   "file": "插画水钻(白底)/gem-peach-049.png",
+   "color": "peach",
+   "w": 52,
+   "h": 51
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-003.png",
+   "color": "pink",
+   "w": 61,
+   "h": 18
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-017.png",
+   "color": "pink",
+   "w": 64,
+   "h": 64
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-019.png",
+   "color": "pink",
+   "w": 51,
+   "h": 51
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-020.png",
+   "color": "pink",
+   "w": 39,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-026.png",
+   "color": "pink",
+   "w": 103,
+   "h": 107
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-028.png",
+   "color": "pink",
+   "w": 59,
+   "h": 71
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-034.png",
+   "color": "pink",
+   "w": 109,
+   "h": 108
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-036.png",
+   "color": "pink",
+   "w": 40,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-037.png",
+   "color": "pink",
+   "w": 40,
+   "h": 39
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-046.png",
+   "color": "pink",
+   "w": 109,
+   "h": 104
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-061.png",
+   "color": "pink",
+   "w": 64,
+   "h": 63
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-072.png",
+   "color": "pink",
+   "w": 58,
+   "h": 76
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-078.png",
+   "color": "pink",
+   "w": 106,
+   "h": 106
+  },
+  {
+   "file": "插画水钻(白底)/gem-pink-079.png",
+   "color": "pink",
+   "w": 48,
+   "h": 47
+  },
+  {
+   "file": "插画水钻(白底)/gem-purple-015.png",
+   "color": "purple",
+   "w": 84,
+   "h": 116
+  },
+  {
+   "file": "插画水钻(白底)/gem-purple-021.png",
+   "color": "purple",
+   "w": 95,
+   "h": 129
+  },
+  {
+   "file": "插画水钻(白底)/gem-purple-042.png",
+   "color": "purple",
+   "w": 76,
+   "h": 106
+  },
+  {
+   "file": "插画水钻(白底)/gem-purple-060.png",
+   "color": "purple",
+   "w": 96,
+   "h": 102
+  },
+  {
+   "file": "插画水钻(白底)/gem-purple-084.png",
+   "color": "purple",
+   "w": 84,
+   "h": 119
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-001.png",
+   "color": "red",
+   "w": 94,
+   "h": 84
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-004.png",
+   "color": "red",
+   "w": 111,
+   "h": 91
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-014.png",
+   "color": "red",
+   "w": 34,
+   "h": 34
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-016.png",
+   "color": "red",
+   "w": 161,
+   "h": 149
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-033.png",
+   "color": "red",
+   "w": 80,
+   "h": 78
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-045.png",
+   "color": "red",
+   "w": 41,
+   "h": 42
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-048.png",
+   "color": "red",
+   "w": 97,
+   "h": 97
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-051.png",
+   "color": "red",
+   "w": 42,
+   "h": 43
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-053.png",
+   "color": "red",
+   "w": 90,
+   "h": 90
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-065.png",
+   "color": "red",
+   "w": 41,
+   "h": 41
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-066.png",
+   "color": "red",
+   "w": 33,
+   "h": 34
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-067.png",
+   "color": "red",
+   "w": 81,
+   "h": 83
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-071.png",
+   "color": "red",
+   "w": 69,
+   "h": 86
+  },
+  {
+   "file": "插画水钻(白底)/gem-red-093.png",
+   "color": "red",
+   "w": 38,
+   "h": 24
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-008.png",
+   "color": "silver",
+   "w": 43,
+   "h": 43
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-012.png",
+   "color": "silver",
+   "w": 49,
+   "h": 50
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-027.png",
+   "color": "silver",
+   "w": 68,
+   "h": 78
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-038.png",
+   "color": "silver",
+   "w": 138,
+   "h": 136
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-040.png",
+   "color": "silver",
+   "w": 68,
+   "h": 69
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-062.png",
+   "color": "silver",
+   "w": 77,
+   "h": 102
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-074.png",
+   "color": "silver",
+   "w": 48,
+   "h": 47
+  },
+  {
+   "file": "插画水钻(白底)/gem-silver-090.png",
+   "color": "silver",
+   "w": 72,
+   "h": 63
+  },
+  {
+   "file": "插画水钻(白底)/gem-sky-031.png",
+   "color": "sky",
+   "w": 39,
+   "h": 38
+  },
+  {
+   "file": "插画水钻(白底)/gem-sky-056.png",
+   "color": "sky",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "file": "插画水钻(白底)/gem-yellow-002.png",
+   "color": "yellow",
+   "w": 96,
+   "h": 68
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-043.png",
+   "color": "blue",
+   "w": 41,
+   "h": 41
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-047.png",
+   "color": "blue",
+   "w": 46,
+   "h": 42
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-048.png",
+   "color": "blue",
+   "w": 32,
+   "h": 51
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-068.png",
+   "color": "blue",
+   "w": 47,
+   "h": 50
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-072.png",
+   "color": "blue",
+   "w": 64,
+   "h": 73
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-079.png",
+   "color": "blue",
+   "w": 88,
+   "h": 81
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-080.png",
+   "color": "blue",
+   "w": 65,
+   "h": 56
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-089.png",
+   "color": "blue",
+   "w": 73,
+   "h": 71
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-111.png",
+   "color": "blue",
+   "w": 44,
+   "h": 44
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-124.png",
+   "color": "blue",
+   "w": 68,
+   "h": 69
+  },
+  {
+   "file": "真实水钻(灰底)/gem-blue-125.png",
+   "color": "blue",
+   "w": 47,
+   "h": 47
+  },
+  {
+   "file": "真实水钻(灰底)/gem-gold-026.png",
+   "color": "gold",
+   "w": 69,
+   "h": 64
+  },
+  {
+   "file": "真实水钻(灰底)/gem-gold-049.png",
+   "color": "gold",
+   "w": 47,
+   "h": 41
+  },
+  {
+   "file": "真实水钻(灰底)/gem-gold-073.png",
+   "color": "gold",
+   "w": 56,
+   "h": 50
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-001.png",
+   "color": "green",
+   "w": 170,
+   "h": 142
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-011.png",
+   "color": "green",
+   "w": 80,
+   "h": 91
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-015.png",
+   "color": "green",
+   "w": 26,
+   "h": 50
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-055.png",
+   "color": "green",
+   "w": 88,
+   "h": 81
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-090.png",
+   "color": "green",
+   "w": 41,
+   "h": 54
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-128.png",
+   "color": "green",
+   "w": 53,
+   "h": 78
+  },
+  {
+   "file": "真实水钻(灰底)/gem-green-136.png",
+   "color": "green",
+   "w": 50,
+   "h": 25
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lavender-032.png",
+   "color": "lavender",
+   "w": 65,
+   "h": 63
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lavender-096.png",
+   "color": "lavender",
+   "w": 54,
+   "h": 47
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lavender-107.png",
+   "color": "lavender",
+   "w": 60,
+   "h": 54
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-024.png",
+   "color": "lime",
+   "w": 47,
+   "h": 43
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-027.png",
+   "color": "lime",
+   "w": 46,
+   "h": 52
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-036.png",
+   "color": "lime",
+   "w": 116,
+   "h": 173
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-045.png",
+   "color": "lime",
+   "w": 41,
+   "h": 38
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-070.png",
+   "color": "lime",
+   "w": 64,
+   "h": 57
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-076.png",
+   "color": "lime",
+   "w": 41,
+   "h": 44
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-086.png",
+   "color": "lime",
+   "w": 77,
+   "h": 128
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-087.png",
+   "color": "lime",
+   "w": 75,
+   "h": 70
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-104.png",
+   "color": "lime",
+   "w": 80,
+   "h": 80
+  },
+  {
+   "file": "真实水钻(灰底)/gem-lime-132.png",
+   "color": "lime",
+   "w": 72,
+   "h": 54
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-003.png",
+   "color": "magenta",
+   "w": 83,
+   "h": 46
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-004.png",
+   "color": "magenta",
+   "w": 43,
+   "h": 36
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-006.png",
+   "color": "magenta",
+   "w": 98,
+   "h": 89
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-023.png",
+   "color": "magenta",
+   "w": 53,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-039.png",
+   "color": "magenta",
+   "w": 65,
+   "h": 76
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-052.png",
+   "color": "magenta",
+   "w": 48,
+   "h": 42
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-053.png",
+   "color": "magenta",
+   "w": 54,
+   "h": 51
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-058.png",
+   "color": "magenta",
+   "w": 63,
+   "h": 69
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-059.png",
+   "color": "magenta",
+   "w": 54,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-098.png",
+   "color": "magenta",
+   "w": 52,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-108.png",
+   "color": "magenta",
+   "w": 47,
+   "h": 57
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-109.png",
+   "color": "magenta",
+   "w": 99,
+   "h": 93
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-110.png",
+   "color": "magenta",
+   "w": 56,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-magenta-134.png",
+   "color": "magenta",
+   "w": 69,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-orange-008.png",
+   "color": "orange",
+   "w": 85,
+   "h": 134
+  },
+  {
+   "file": "真实水钻(灰底)/gem-orange-016.png",
+   "color": "orange",
+   "w": 45,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-orange-117.png",
+   "color": "orange",
+   "w": 80,
+   "h": 123
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-010.png",
+   "color": "peach",
+   "w": 25,
+   "h": 37
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-041.png",
+   "color": "peach",
+   "w": 69,
+   "h": 63
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-067.png",
+   "color": "peach",
+   "w": 75,
+   "h": 67
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-069.png",
+   "color": "peach",
+   "w": 45,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-075.png",
+   "color": "peach",
+   "w": 38,
+   "h": 46
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-078.png",
+   "color": "peach",
+   "w": 73,
+   "h": 123
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-088.png",
+   "color": "peach",
+   "w": 66,
+   "h": 56
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-091.png",
+   "color": "peach",
+   "w": 57,
+   "h": 52
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-114.png",
+   "color": "peach",
+   "w": 48,
+   "h": 42
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-119.png",
+   "color": "peach",
+   "w": 58,
+   "h": 53
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-120.png",
+   "color": "peach",
+   "w": 74,
+   "h": 67
+  },
+  {
+   "file": "真实水钻(灰底)/gem-peach-129.png",
+   "color": "peach",
+   "w": 58,
+   "h": 57
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-002.png",
+   "color": "pink",
+   "w": 43,
+   "h": 25
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-013.png",
+   "color": "pink",
+   "w": 48,
+   "h": 43
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-022.png",
+   "color": "pink",
+   "w": 114,
+   "h": 152
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-025.png",
+   "color": "pink",
+   "w": 55,
+   "h": 49
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-030.png",
+   "color": "pink",
+   "w": 56,
+   "h": 51
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-033.png",
+   "color": "pink",
+   "w": 145,
+   "h": 107
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-037.png",
+   "color": "pink",
+   "w": 47,
+   "h": 43
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-054.png",
+   "color": "pink",
+   "w": 49,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-063.png",
+   "color": "pink",
+   "w": 69,
+   "h": 64
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-064.png",
+   "color": "pink",
+   "w": 161,
+   "h": 152
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-074.png",
+   "color": "pink",
+   "w": 75,
+   "h": 70
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-077.png",
+   "color": "pink",
+   "w": 64,
+   "h": 55
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-085.png",
+   "color": "pink",
+   "w": 22,
+   "h": 43
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-101.png",
+   "color": "pink",
+   "w": 27,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-102.png",
+   "color": "pink",
+   "w": 61,
+   "h": 74
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-113.png",
+   "color": "pink",
+   "w": 61,
+   "h": 58
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-118.png",
+   "color": "pink",
+   "w": 41,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-126.png",
+   "color": "pink",
+   "w": 40,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-127.png",
+   "color": "pink",
+   "w": 45,
+   "h": 43
+  },
+  {
+   "file": "真实水钻(灰底)/gem-pink-135.png",
+   "color": "pink",
+   "w": 46,
+   "h": 36
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-012.png",
+   "color": "purple",
+   "w": 85,
+   "h": 77
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-018.png",
+   "color": "purple",
+   "w": 61,
+   "h": 52
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-031.png",
+   "color": "purple",
+   "w": 72,
+   "h": 65
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-035.png",
+   "color": "purple",
+   "w": 16,
+   "h": 47
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-040.png",
+   "color": "purple",
+   "w": 86,
+   "h": 76
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-046.png",
+   "color": "purple",
+   "w": 121,
+   "h": 104
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-061.png",
+   "color": "purple",
+   "w": 39,
+   "h": 36
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-084.png",
+   "color": "purple",
+   "w": 143,
+   "h": 114
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-123.png",
+   "color": "purple",
+   "w": 42,
+   "h": 40
+  },
+  {
+   "file": "真实水钻(灰底)/gem-purple-131.png",
+   "color": "purple",
+   "w": 85,
+   "h": 60
+  },
+  {
+   "file": "真实水钻(灰底)/gem-red-014.png",
+   "color": "red",
+   "w": 73,
+   "h": 66
+  },
+  {
+   "file": "真实水钻(灰底)/gem-red-020.png",
+   "color": "red",
+   "w": 93,
+   "h": 87
+  },
+  {
+   "file": "真实水钻(灰底)/gem-red-092.png",
+   "color": "red",
+   "w": 73,
+   "h": 71
+  },
+  {
+   "file": "真实水钻(灰底)/gem-red-121.png",
+   "color": "red",
+   "w": 56,
+   "h": 68
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-007.png",
+   "color": "silver",
+   "w": 58,
+   "h": 56
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-009.png",
+   "color": "silver",
+   "w": 66,
+   "h": 64
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-017.png",
+   "color": "silver",
+   "w": 46,
+   "h": 44
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-019.png",
+   "color": "silver",
+   "w": 49,
+   "h": 45
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-021.png",
+   "color": "silver",
+   "w": 148,
+   "h": 92
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-029.png",
+   "color": "silver",
+   "w": 94,
+   "h": 87
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-034.png",
+   "color": "silver",
+   "w": 70,
+   "h": 67
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-038.png",
+   "color": "silver",
+   "w": 113,
+   "h": 171
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-042.png",
+   "color": "silver",
+   "w": 99,
+   "h": 94
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-044.png",
+   "color": "silver",
+   "w": 52,
+   "h": 48
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-051.png",
+   "color": "silver",
+   "w": 48,
+   "h": 45
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-056.png",
+   "color": "silver",
+   "w": 40,
+   "h": 37
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-057.png",
+   "color": "silver",
+   "w": 43,
+   "h": 38
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-060.png",
+   "color": "silver",
+   "w": 66,
+   "h": 58
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-062.png",
+   "color": "silver",
+   "w": 68,
+   "h": 63
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-065.png",
+   "color": "silver",
+   "w": 45,
+   "h": 41
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-066.png",
+   "color": "silver",
+   "w": 43,
+   "h": 36
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-071.png",
+   "color": "silver",
+   "w": 86,
+   "h": 72
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-081.png",
+   "color": "silver",
+   "w": 54,
+   "h": 58
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-082.png",
+   "color": "silver",
+   "w": 64,
+   "h": 80
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-083.png",
+   "color": "silver",
+   "w": 102,
+   "h": 97
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-093.png",
+   "color": "silver",
+   "w": 81,
+   "h": 66
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-094.png",
+   "color": "silver",
+   "w": 53,
+   "h": 60
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-095.png",
+   "color": "silver",
+   "w": 60,
+   "h": 69
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-097.png",
+   "color": "silver",
+   "w": 56,
+   "h": 65
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-103.png",
+   "color": "silver",
+   "w": 42,
+   "h": 39
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-105.png",
+   "color": "silver",
+   "w": 42,
+   "h": 38
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-106.png",
+   "color": "silver",
+   "w": 64,
+   "h": 69
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-115.png",
+   "color": "silver",
+   "w": 42,
+   "h": 38
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-116.png",
+   "color": "silver",
+   "w": 57,
+   "h": 68
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-122.png",
+   "color": "silver",
+   "w": 49,
+   "h": 47
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-130.png",
+   "color": "silver",
+   "w": 87,
+   "h": 66
+  },
+  {
+   "file": "真实水钻(灰底)/gem-silver-133.png",
+   "color": "silver",
+   "w": 51,
+   "h": 46
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-005.png",
+   "color": "sky",
+   "w": 73,
+   "h": 42
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-028.png",
+   "color": "sky",
+   "w": 85,
+   "h": 72
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-050.png",
+   "color": "sky",
+   "w": 79,
+   "h": 69
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-099.png",
+   "color": "sky",
+   "w": 73,
+   "h": 77
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-100.png",
+   "color": "sky",
+   "w": 81,
+   "h": 76
+  },
+  {
+   "file": "真实水钻(灰底)/gem-sky-112.png",
+   "color": "sky",
+   "w": 24,
+   "h": 39
+  }
+ ],
+ "packs": {
+  "purple": [
+   "插画水钻(白底)/gem-purple-015.png",
+   "插画水钻(白底)/gem-purple-021.png",
+   "插画水钻(白底)/gem-purple-042.png",
+   "插画水钻(白底)/gem-purple-060.png",
+   "插画水钻(白底)/gem-purple-084.png",
+   "真实水钻(灰底)/gem-lavender-032.png",
+   "真实水钻(灰底)/gem-lavender-096.png",
+   "真实水钻(灰底)/gem-lavender-107.png",
+   "真实水钻(灰底)/gem-purple-012.png",
+   "真实水钻(灰底)/gem-purple-018.png",
+   "真实水钻(灰底)/gem-purple-031.png",
+   "真实水钻(灰底)/gem-purple-035.png",
+   "真实水钻(灰底)/gem-purple-040.png",
+   "真实水钻(灰底)/gem-purple-046.png",
+   "真实水钻(灰底)/gem-purple-061.png",
+   "真实水钻(灰底)/gem-purple-084.png",
+   "真实水钻(灰底)/gem-purple-123.png",
+   "真实水钻(灰底)/gem-purple-131.png"
+  ],
+  "blue": [
+   "插画水钻(白底)/gem-blue-007.png",
+   "插画水钻(白底)/gem-blue-011.png",
+   "插画水钻(白底)/gem-blue-013.png",
+   "插画水钻(白底)/gem-blue-029.png",
+   "插画水钻(白底)/gem-blue-035.png",
+   "插画水钻(白底)/gem-blue-041.png",
+   "插画水钻(白底)/gem-blue-055.png",
+   "插画水钻(白底)/gem-blue-057.png",
+   "插画水钻(白底)/gem-blue-063.png",
+   "插画水钻(白底)/gem-blue-069.png",
+   "插画水钻(白底)/gem-blue-073.png",
+   "插画水钻(白底)/gem-blue-082.png",
+   "插画水钻(白底)/gem-blue-083.png",
+   "插画水钻(白底)/gem-blue-089.png",
+   "插画水钻(白底)/gem-sky-031.png",
+   "插画水钻(白底)/gem-sky-056.png",
+   "真实水钻(灰底)/gem-blue-043.png",
+   "真实水钻(灰底)/gem-blue-047.png",
+   "真实水钻(灰底)/gem-blue-048.png",
+   "真实水钻(灰底)/gem-blue-068.png",
+   "真实水钻(灰底)/gem-blue-072.png",
+   "真实水钻(灰底)/gem-blue-079.png",
+   "真实水钻(灰底)/gem-blue-080.png",
+   "真实水钻(灰底)/gem-blue-089.png",
+   "真实水钻(灰底)/gem-blue-111.png",
+   "真实水钻(灰底)/gem-blue-124.png",
+   "真实水钻(灰底)/gem-blue-125.png",
+   "真实水钻(灰底)/gem-sky-005.png",
+   "真实水钻(灰底)/gem-sky-028.png",
+   "真实水钻(灰底)/gem-sky-050.png",
+   "真实水钻(灰底)/gem-sky-099.png",
+   "真实水钻(灰底)/gem-sky-100.png",
+   "真实水钻(灰底)/gem-sky-112.png"
+  ],
+  "gold": [
+   "插画水钻(白底)/gem-gold-006.png",
+   "插画水钻(白底)/gem-gold-018.png",
+   "插画水钻(白底)/gem-gold-022.png",
+   "插画水钻(白底)/gem-gold-024.png",
+   "插画水钻(白底)/gem-gold-025.png",
+   "插画水钻(白底)/gem-gold-043.png",
+   "插画水钻(白底)/gem-gold-044.png",
+   "插画水钻(白底)/gem-gold-047.png",
+   "插画水钻(白底)/gem-gold-054.png",
+   "插画水钻(白底)/gem-gold-068.png",
+   "插画水钻(白底)/gem-gold-076.png",
+   "插画水钻(白底)/gem-gold-085.png",
+   "插画水钻(白底)/gem-gold-091.png",
+   "插画水钻(白底)/gem-gold-092.png",
+   "插画水钻(白底)/gem-yellow-002.png",
+   "真实水钻(灰底)/gem-gold-026.png",
+   "真实水钻(灰底)/gem-gold-049.png",
+   "真实水钻(灰底)/gem-gold-073.png"
+  ],
+  "pink": [
+   "插画水钻(白底)/gem-magenta-010.png",
+   "插画水钻(白底)/gem-magenta-023.png",
+   "插画水钻(白底)/gem-magenta-032.png",
+   "插画水钻(白底)/gem-magenta-039.png",
+   "插画水钻(白底)/gem-magenta-058.png",
+   "插画水钻(白底)/gem-magenta-059.png",
+   "插画水钻(白底)/gem-magenta-070.png",
+   "插画水钻(白底)/gem-magenta-075.png",
+   "插画水钻(白底)/gem-magenta-080.png",
+   "插画水钻(白底)/gem-peach-049.png",
+   "插画水钻(白底)/gem-pink-003.png",
+   "插画水钻(白底)/gem-pink-017.png",
+   "插画水钻(白底)/gem-pink-019.png",
+   "插画水钻(白底)/gem-pink-020.png",
+   "插画水钻(白底)/gem-pink-026.png",
+   "插画水钻(白底)/gem-pink-028.png",
+   "插画水钻(白底)/gem-pink-034.png",
+   "插画水钻(白底)/gem-pink-036.png",
+   "插画水钻(白底)/gem-pink-037.png",
+   "插画水钻(白底)/gem-pink-046.png",
+   "插画水钻(白底)/gem-pink-061.png",
+   "插画水钻(白底)/gem-pink-072.png",
+   "插画水钻(白底)/gem-pink-078.png",
+   "插画水钻(白底)/gem-pink-079.png",
+   "真实水钻(灰底)/gem-magenta-003.png",
+   "真实水钻(灰底)/gem-magenta-004.png",
+   "真实水钻(灰底)/gem-magenta-006.png",
+   "真实水钻(灰底)/gem-magenta-023.png",
+   "真实水钻(灰底)/gem-magenta-039.png",
+   "真实水钻(灰底)/gem-magenta-052.png",
+   "真实水钻(灰底)/gem-magenta-053.png",
+   "真实水钻(灰底)/gem-magenta-058.png",
+   "真实水钻(灰底)/gem-magenta-059.png",
+   "真实水钻(灰底)/gem-magenta-098.png",
+   "真实水钻(灰底)/gem-magenta-108.png",
+   "真实水钻(灰底)/gem-magenta-109.png",
+   "真实水钻(灰底)/gem-magenta-110.png",
+   "真实水钻(灰底)/gem-magenta-134.png",
+   "真实水钻(灰底)/gem-peach-010.png",
+   "真实水钻(灰底)/gem-peach-041.png",
+   "真实水钻(灰底)/gem-peach-067.png",
+   "真实水钻(灰底)/gem-peach-069.png",
+   "真实水钻(灰底)/gem-peach-075.png",
+   "真实水钻(灰底)/gem-peach-078.png",
+   "真实水钻(灰底)/gem-peach-088.png",
+   "真实水钻(灰底)/gem-peach-091.png",
+   "真实水钻(灰底)/gem-peach-114.png",
+   "真实水钻(灰底)/gem-peach-119.png",
+   "真实水钻(灰底)/gem-peach-120.png",
+   "真实水钻(灰底)/gem-peach-129.png",
+   "真实水钻(灰底)/gem-pink-002.png",
+   "真实水钻(灰底)/gem-pink-013.png",
+   "真实水钻(灰底)/gem-pink-022.png",
+   "真实水钻(灰底)/gem-pink-025.png",
+   "真实水钻(灰底)/gem-pink-030.png",
+   "真实水钻(灰底)/gem-pink-033.png",
+   "真实水钻(灰底)/gem-pink-037.png",
+   "真实水钻(灰底)/gem-pink-054.png",
+   "真实水钻(灰底)/gem-pink-063.png",
+   "真实水钻(灰底)/gem-pink-064.png",
+   "真实水钻(灰底)/gem-pink-074.png",
+   "真实水钻(灰底)/gem-pink-077.png",
+   "真实水钻(灰底)/gem-pink-085.png",
+   "真实水钻(灰底)/gem-pink-101.png",
+   "真实水钻(灰底)/gem-pink-102.png",
+   "真实水钻(灰底)/gem-pink-113.png",
+   "真实水钻(灰底)/gem-pink-118.png",
+   "真实水钻(灰底)/gem-pink-126.png",
+   "真实水钻(灰底)/gem-pink-127.png",
+   "真实水钻(灰底)/gem-pink-135.png"
+  ],
+  "green": [
+   "插画水钻(白底)/gem-green-005.png",
+   "插画水钻(白底)/gem-green-009.png",
+   "插画水钻(白底)/gem-green-030.png",
+   "插画水钻(白底)/gem-green-050.png",
+   "插画水钻(白底)/gem-green-052.png",
+   "插画水钻(白底)/gem-green-064.png",
+   "插画水钻(白底)/gem-green-077.png",
+   "插画水钻(白底)/gem-green-081.png",
+   "插画水钻(白底)/gem-green-086.png",
+   "真实水钻(灰底)/gem-green-001.png",
+   "真实水钻(灰底)/gem-green-011.png",
+   "真实水钻(灰底)/gem-green-015.png",
+   "真实水钻(灰底)/gem-green-055.png",
+   "真实水钻(灰底)/gem-green-090.png",
+   "真实水钻(灰底)/gem-green-128.png",
+   "真实水钻(灰底)/gem-green-136.png",
+   "真实水钻(灰底)/gem-lime-024.png",
+   "真实水钻(灰底)/gem-lime-027.png",
+   "真实水钻(灰底)/gem-lime-036.png",
+   "真实水钻(灰底)/gem-lime-045.png",
+   "真实水钻(灰底)/gem-lime-070.png",
+   "真实水钻(灰底)/gem-lime-076.png",
+   "真实水钻(灰底)/gem-lime-086.png",
+   "真实水钻(灰底)/gem-lime-087.png",
+   "真实水钻(灰底)/gem-lime-104.png",
+   "真实水钻(灰底)/gem-lime-132.png"
+  ],
+  "red": [
+   "插画水钻(白底)/gem-red-001.png",
+   "插画水钻(白底)/gem-red-004.png",
+   "插画水钻(白底)/gem-red-014.png",
+   "插画水钻(白底)/gem-red-016.png",
+   "插画水钻(白底)/gem-red-033.png",
+   "插画水钻(白底)/gem-red-045.png",
+   "插画水钻(白底)/gem-red-048.png",
+   "插画水钻(白底)/gem-red-051.png",
+   "插画水钻(白底)/gem-red-053.png",
+   "插画水钻(白底)/gem-red-065.png",
+   "插画水钻(白底)/gem-red-066.png",
+   "插画水钻(白底)/gem-red-067.png",
+   "插画水钻(白底)/gem-red-071.png",
+   "插画水钻(白底)/gem-red-093.png",
+   "真实水钻(灰底)/gem-red-014.png",
+   "真实水钻(灰底)/gem-red-020.png",
+   "真实水钻(灰底)/gem-red-092.png",
+   "真实水钻(灰底)/gem-red-121.png"
+  ],
+  "silver": [
+   "插画水钻(白底)/gem-silver-008.png",
+   "插画水钻(白底)/gem-silver-012.png",
+   "插画水钻(白底)/gem-silver-027.png",
+   "插画水钻(白底)/gem-silver-038.png",
+   "插画水钻(白底)/gem-silver-040.png",
+   "插画水钻(白底)/gem-silver-062.png",
+   "插画水钻(白底)/gem-silver-074.png",
+   "插画水钻(白底)/gem-silver-090.png",
+   "真实水钻(灰底)/gem-silver-007.png",
+   "真实水钻(灰底)/gem-silver-009.png",
+   "真实水钻(灰底)/gem-silver-017.png",
+   "真实水钻(灰底)/gem-silver-019.png",
+   "真实水钻(灰底)/gem-silver-021.png",
+   "真实水钻(灰底)/gem-silver-029.png",
+   "真实水钻(灰底)/gem-silver-034.png",
+   "真实水钻(灰底)/gem-silver-038.png",
+   "真实水钻(灰底)/gem-silver-042.png",
+   "真实水钻(灰底)/gem-silver-044.png",
+   "真实水钻(灰底)/gem-silver-051.png",
+   "真实水钻(灰底)/gem-silver-056.png",
+   "真实水钻(灰底)/gem-silver-057.png",
+   "真实水钻(灰底)/gem-silver-060.png",
+   "真实水钻(灰底)/gem-silver-062.png",
+   "真实水钻(灰底)/gem-silver-065.png",
+   "真实水钻(灰底)/gem-silver-066.png",
+   "真实水钻(灰底)/gem-silver-071.png",
+   "真实水钻(灰底)/gem-silver-081.png",
+   "真实水钻(灰底)/gem-silver-082.png",
+   "真实水钻(灰底)/gem-silver-083.png",
+   "真实水钻(灰底)/gem-silver-093.png",
+   "真实水钻(灰底)/gem-silver-094.png",
+   "真实水钻(灰底)/gem-silver-095.png",
+   "真实水钻(灰底)/gem-silver-097.png",
+   "真实水钻(灰底)/gem-silver-103.png",
+   "真实水钻(灰底)/gem-silver-105.png",
+   "真实水钻(灰底)/gem-silver-106.png",
+   "真实水钻(灰底)/gem-silver-115.png",
+   "真实水钻(灰底)/gem-silver-116.png",
+   "真实水钻(灰底)/gem-silver-122.png",
+   "真实水钻(灰底)/gem-silver-130.png",
+   "真实水钻(灰底)/gem-silver-133.png"
+  ]
+ }
+}

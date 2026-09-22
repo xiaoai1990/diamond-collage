@@ -1,0 +1,38 @@
+[
+ {
+  "id": "apple",
+  "name": "apple",
+  "colorHint": "red",
+  "total": 17
+ },
+ {
+  "id": "clover",
+  "name": "clover",
+  "colorHint": "green",
+  "total": 17
+ },
+ {
+  "id": "dolphin",
+  "name": "dolphin",
+  "colorHint": "blue",
+  "total": 15
+ },
+ {
+  "id": "icecream",
+  "name": "ice cream",
+  "colorHint": "blue",
+  "total": 27
+ },
+ {
+  "id": "popcorn",
+  "name": "pop corn",
+  "colorHint": "red",
+  "total": 14
+ },
+ {
+  "id": "umbrella",
+  "name": "umbrella",
+  "colorHint": "blue",
+  "total": 18
+ }
+]

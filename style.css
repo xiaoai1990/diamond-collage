@@ -1,224 +1,192 @@
+/* Diamond Collage · Y2K 重口风格 v2 */
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-html, body {
-  height: 100%;
-  overflow: hidden;
-  overscroll-behavior: none;
-  background: #12101a;
-  color: #eee9f7;
-  font-family: -apple-system, "PingFang SC", "Noto Sans SC", sans-serif;
-  touch-action: none;
-  user-select: none;
-  -webkit-user-select: none;
+:root {
+  --hotpink: #FF5FB0;
+  --violet: #A259F7;
+  --skyblue: #5BC8F5;
+  --lemon: #FFE45C;
+  --deep: #4A3670;
+  --cream: #FFFDF6;
+  --pinklight: #FFD9EC;
 }
-
-#app {
+html, body {
+  height: 100%; overflow: hidden; overscroll-behavior: none;
+  font-family: "Fredoka", "PingFang SC", sans-serif;
+  user-select: none; -webkit-user-select: none;
+  touch-action: none;
+}
+#desktop {
   height: 100%;
-  max-width: 560px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  max-width: 480px; margin: 0 auto;
+  background-color: #BFE3F7;
+  background-image: radial-gradient(circle, #ffffff 3.2px, transparent 3.6px);
+  background-size: 30px 30px;
+  position: relative;
+  display: flex; flex-direction: column;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
-
-/* ---- 顶栏 ---- */
-#topbar {
-  padding: 10px 14px 6px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-#topbar h1 {
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-}
-#progress-wrap {
+#app-window {
   flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-#progress-wrap span {
-  font-size: 11px;
-  color: #9a92b5;
-  min-width: 64px;
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-#progress-track {
-  flex: 1;
-}
-#progress-bar {
-  height: 6px;
-  border-radius: 3px;
-  background: linear-gradient(90deg, #7ee8fa, #eec0f7, #ffd98a);
-  width: 0%;
-  transition: width 0.25s ease;
-  box-shadow: 0 0 8px rgba(150, 210, 255, 0.45);
-}
-#progress-wrap::before {
-  content: "";
-  display: block;
-  position: absolute;
-}
-
-/* 进度条需要轨道背景 */
-#progress-wrap { position: relative; }
-#progress-bar { position: relative; }
-#progress-wrap .track-bg {
-  position: absolute;
-  left: 0; top: 50%;
-  transform: translateY(-50%);
-  width: 100%; height: 6px;
-  border-radius: 3px;
-  background: #2a2537;
-}
-
-/* ---- 模板选择 ---- */
-#templates {
-  display: flex;
-  gap: 8px;
-  padding: 4px 14px 10px;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-#templates::-webkit-scrollbar { display: none; }
-.tpl-chip {
-  flex: 0 0 auto;
-  padding: 7px 14px;
-  border-radius: 20px;
-  border: 1px solid #35304a;
-  background: #1d1930;
-  color: #b9b1d6;
-  font-size: 13px;
-  cursor: pointer;
-}
-.tpl-chip.active {
-  background: linear-gradient(135deg, #3b2f68, #55347a);
-  border-color: #8a6cf0;
-  color: #fff;
-  box-shadow: 0 0 10px rgba(138, 108, 240, 0.35);
-}
-
-/* ---- 画布区 ---- */
-#stage {
-  flex: 1;
+  margin: 12px 10px 40px;
+  background: var(--cream);
+  border: 2px solid var(--deep);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex; flex-direction: column;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 14px;
-  min-height: 0;
 }
-#board {
-  border-radius: 18px;
-  background: #17142240;
-  touch-action: none;
+.view { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.hidden { display: none !important; }
+
+/* ---- titlebar / menubar ---- */
+.titlebar {
+  height: 38px; flex: 0 0 auto;
+  display: flex; align-items: center; gap: 8px; padding: 0 8px;
+  background: linear-gradient(90deg, var(--hotpink), var(--violet));
+}
+.tb-title { font-family: "Press Start 2P"; font-size: 9px; color: #fff; flex: 1; white-space: nowrap; overflow: hidden; }
+.tb-btns { display: flex; gap: 4px; }
+.tb-btns i {
+  font-style: normal; font-family: "VT323"; font-size: 13px; color: var(--deep);
+  background: #fff; border: 1.5px solid var(--deep); border-radius: 3px;
+  width: 20px; height: 18px; display: flex; align-items: center; justify-content: center;
+}
+.menubar {
+  height: 24px; flex: 0 0 auto;
+  display: flex; gap: 16px; align-items: center; padding: 0 10px;
+  background: #F4EFFC; border-bottom: 1px solid var(--deep);
+  font-family: "VT323"; font-size: 14px; color: var(--deep);
 }
 
-/* ---- 完成闪白 ---- */
+/* ---- HOME ---- */
+.hero { text-align: center; padding: 16px 0 8px; }
+.px-title {
+  font-family: "Press Start 2P"; font-size: 22px; line-height: 1.5; color: var(--hotpink);
+  text-shadow: 3px 3px 0 var(--violet);
+}
+.hero-sub { font-family: "VT323"; font-size: 17px; color: var(--deep); margin-top: 8px; }
+.mode-tabs { display: flex; gap: 10px; padding: 6px 14px 10px; }
+.px-btn {
+  flex: 1; height: 36px;
+  font-family: "Press Start 2P"; font-size: 9px; color: var(--deep);
+  border: 2px solid var(--deep); border-radius: 4px; cursor: pointer;
+  box-shadow: 2px 2px 0 var(--deep);
+}
+.px-btn.lemon { background: var(--lemon); }
+.px-btn.white { background: #fff; color: var(--violet); }
+.px-btn.big { height: 44px; font-size: 10px; }
+#card-grid {
+  flex: 1; overflow-y: auto;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  padding: 4px 12px 12px;
+}
+.wincard {
+  background: #fff; border: 1.5px solid var(--deep); border-radius: 4px;
+  overflow: hidden; cursor: pointer;
+}
+.wincard .cbar {
+  height: 15px; display: flex; align-items: center; justify-content: space-between; padding: 0 5px;
+  background: linear-gradient(90deg, var(--hotpink), var(--violet));
+}
+.wincard .cbar span { font-family: "VT323"; font-size: 10px; color: #fff; }
+.wincard canvas { width: 100%; display: block; background: #F6EFFF; }
+.wincard .cinfo { display: flex; justify-content: space-between; align-items: center; padding: 6px 8px; }
+.wincard .cname { font-family: "Press Start 2P"; font-size: 7px; color: var(--deep); }
+.wincard .cstat { font-family: "VT323"; font-size: 13px; font-weight: 700; color: var(--violet); }
+.wincard:active { transform: translate(1px, 1px); }
+
+/* ---- PLAY ---- */
+#progress-area { padding: 10px 12px 4px; flex: 0 0 auto; }
+#seg-track { display: flex; gap: 3px; }
+#seg-track .seg { flex: 1; height: 15px; border-radius: 2px; background: #EDE8F7; border: 1px solid var(--deep); }
+#seg-track .seg.on { background: var(--lemon); }
+.prog-text { display: flex; justify-content: space-between; margin-top: 4px; font-family: "VT323"; font-size: 15px; color: var(--deep); }
+#prog-pct { color: var(--hotpink); font-weight: 700; }
+#free-tag { text-align: center; font-family: "VT323"; font-size: 16px; color: var(--violet); padding-top: 8px; }
+
+#art-window {
+  flex: 1; margin: 8px 12px 0;
+  border: 1.5px solid var(--deep); border-radius: 4px; overflow: hidden;
+  background: #fff; position: relative; display: flex; flex-direction: column; min-height: 0;
+}
+.artbar {
+  height: 18px; flex: 0 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 6px;
+  background: var(--skyblue); font-family: "VT323"; font-size: 12px; color: #fff;
+}
+#board { flex: 1; width: 100%; min-height: 0; touch-action: none; display: block; }
 #flash {
-  position: absolute;
-  inset: 0;
-  background: #fff;
-  opacity: 0;
-  pointer-events: none;
-  border-radius: 18px;
+  position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none;
 }
-
-/* ---- 完成卡片 ---- */
 #done-card {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(10, 8, 18, 0.72);
-  backdrop-filter: blur(6px);
-  border-radius: 18px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.35s ease;
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(74, 54, 112, 0.45);
 }
-#done-card.show { opacity: 1; pointer-events: auto; }
 #done-card.hidden { display: none; }
-.done-inner {
-  text-align: center;
-  padding: 34px 44px;
-  border-radius: 24px;
-  background: linear-gradient(160deg, #241d3f, #1a1530);
-  border: 1px solid #4a3f75;
-  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(150, 120, 255, 0.15);
+#done-card > div { display: flex; flex-direction: column; gap: 10px; }
+.dc-titlebar {
+  display: flex; justify-content: space-between; align-items: center; padding: 0 8px; height: 34px;
+  background: linear-gradient(90deg, var(--hotpink), var(--violet));
+  font-family: "Press Start 2P"; font-size: 8px; color: #fff;
 }
-.done-gem { font-size: 44px; margin-bottom: 8px; }
-.done-inner h2 { font-size: 22px; margin-bottom: 6px; }
-.done-inner p { font-size: 13px; color: #a89fc9; margin-bottom: 20px; }
-.done-actions { display: flex; flex-direction: column; gap: 10px; }
-.done-actions button {
-  padding: 12px 30px;
-  border-radius: 14px;
-  border: none;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
+.dc-x { font-family: "VT323"; font-size: 13px; color: #fff; }
+.dc-body {
+  background: var(--cream); border: 2px solid var(--deep); border-top: none;
+  padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
 }
-.done-actions .primary {
-  background: linear-gradient(135deg, #8a6cf0, #c86cf0);
-  color: #fff;
-}
-.done-actions button:not(.primary) {
-  background: transparent;
-  color: #b9b1d6;
-  border: 1px solid #453d63;
-}
+.dc-big { font-family: "Press Start 2P"; font-size: 14px; color: var(--hotpink); text-align: center; text-shadow: 2px 2px 0 var(--violet); }
+.dc-sub { font-family: "VT323"; font-size: 16px; color: var(--deep); text-align: center; }
 
-/* ---- 底部色板 + 工具 ---- */
-#dock {
-  padding: 8px 14px 14px;
+/* ---- picker: shapes + packs ---- */
+#picker { flex: 0 0 auto; padding: 8px 12px 2px; }
+.tray-label, .tray-label2 {
+  text-align: center; font-family: "VT323"; font-size: 14px; color: var(--deep);
+  margin-bottom: 4px;
 }
-#palette {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  padding: 8px 4px 12px;
-  scrollbar-width: none;
+.tray-label2 { margin-top: 8px; color: var(--violet); }
+#shape-row, #pack-row { display: flex; gap: 8px; justify-content: center; }
+.gem-slot {
+  width: 44px; height: 44px; flex: 0 0 auto;
+  background: #fff; border: 1.5px solid var(--deep); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
 }
-#palette::-webkit-scrollbar { display: none; }
-.gem-swatch {
+.gem-slot img { width: 34px; height: 34px; object-fit: contain; }
+.gem-slot.active {
+  border: 2.5px solid var(--hotpink);
+  box-shadow: 2px 2px 0 var(--deep);
+}
+.gem-slot:active { transform: scale(0.94); }
+#pack-row .gem-slot.active { border-color: var(--hotpink); }
+
+/* ---- tools ---- */
+#tool-row { flex: 0 0 auto; display: flex; justify-content: center; gap: 14px; padding: 8px 0 12px; }
+.tool {
+  width: 52px; height: 42px;
+  background: var(--lemon); border: 2px solid var(--deep); border-radius: 6px;
+  box-shadow: 2px 2px 0 var(--deep); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 17px;
+}
+.tool:active { transform: translate(2px, 2px); box-shadow: none; }
+.tool.on { background: var(--hotpink); }
+.tool .ticon { font-family: "VT323"; font-size: 19px; color: var(--deep); }
+
+/* ---- taskbar ---- */
+#taskbar {
   flex: 0 0 auto;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  position: relative;
-  cursor: pointer;
-  transition: transform 0.12s ease;
-  border: 2px solid transparent;
+  margin: 0 10px 8px;
+  height: 30px;
+  background: #C8CCE8; border: 1px solid var(--deep); border-radius: 4px;
+  display: flex; align-items: center; gap: 8px; padding: 0 8px;
 }
-.gem-swatch.active {
-  transform: scale(1.18);
-  border-color: #fff;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.35);
+.start {
+  font-family: "Press Start 2P"; font-size: 7px; color: var(--deep);
+  background: var(--lemon); border: 1.5px solid var(--deep); border-radius: 3px;
+  padding: 4px 8px;
 }
-.gem-swatch canvas { width: 100%; height: 100%; display: block; }
+.task-hint { flex: 1; text-align: center; font-family: "VT323"; font-size: 14px; color: var(--deep); }
+.clock { font-family: "VT323"; font-size: 14px; color: var(--deep); }
 
-#tools {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-}
-#tools button {
-  width: 52px;
-  height: 44px;
-  border-radius: 14px;
-  border: 1px solid #35304a;
-  background: #1d1930;
-  font-size: 20px;
-  cursor: pointer;
-  transition: background 0.12s ease, border-color 0.12s ease;
-}
-#tools button.on {
-  background: #3b2f68;
-  border-color: #8a6cf0;
+@media (min-width: 480px) {
+  #desktop { border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
 }
